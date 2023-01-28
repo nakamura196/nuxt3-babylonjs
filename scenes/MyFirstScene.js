@@ -10,7 +10,7 @@ const createScene = (canvas) => {
 
   const box = MeshBuilder.CreateBox("box", { size: 2 }, scene);
   const material = new StandardMaterial("box-material", scene);
-  material.diffuseColor = Color3.Blue();
+  material.diffuseColor = Color3.Green();
   box.material = material;
 
   engine.runRenderLoop(() => {
