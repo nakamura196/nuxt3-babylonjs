@@ -13,6 +13,11 @@ const localePath = useLocalePath();
 
     <v-spacer></v-spacer>
 
-    <v-btn variant="text" :to="localePath({ name: 'test' })"> Test </v-btn>
+    <v-btn class="mx-1" variant="text" :to="localePath({ name: 'first' })">
+      Example 1
+    </v-btn>
+    <v-btn class="mx-1" variant="text" :to="localePath({ name: 'second' })">
+      Example 2
+    </v-btn>
   </v-app-bar>
 </template>

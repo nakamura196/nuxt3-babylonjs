@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { BreadCrumbsItem } from "~/types/test";
 
 interface PropType {
-  items?: BreadCrumbsItem[];
+  items?: any[];
 }
 
 withDefaults(defineProps<PropType>(), {

@@ -6,6 +6,6 @@ definePageMeta({
 
 <template>
   <LayoutsCommon>
-    <BabylonScene />
+    <BabylonFirstScene />
   </LayoutsCommon>
 </template>
