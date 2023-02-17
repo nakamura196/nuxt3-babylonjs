@@ -11,6 +11,8 @@ const localePath = useLocalePath();
       </nuxt-link>
     </v-app-bar-title>
 
+    <!--
+
     <v-spacer></v-spacer>
 
     <v-btn class="mx-1" variant="text" :to="localePath({ name: 'first' })">
@@ -19,5 +21,6 @@ const localePath = useLocalePath();
     <v-btn class="mx-1" variant="text" :to="localePath({ name: 'second' })">
       Example 2
     </v-btn>
+    -->
   </v-app-bar>
 </template>
