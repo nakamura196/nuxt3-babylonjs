@@ -42,6 +42,10 @@ const items = [
     name: ".glbファイルのロード",
     path: "/glb",
   },
+  {
+    name: "meshを追加・削除する",
+    path: "/10",
+  },
 ];
 </script>
 <template>
