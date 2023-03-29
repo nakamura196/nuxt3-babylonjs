@@ -59,7 +59,7 @@ const moveCube = () => {
   <LayoutsCommon>
     <v-row>
       <v-col>
-        <v-text-field label="Mesh Number" type="number" class="mb-5" v-model="count" hide-details single-line variant="outlined" density="compact"></v-text-field>
+        <v-text-field label="Mesh Number" type="number" class="mb-5" v-model="count" hide-details variant="outlined" density="compact"></v-text-field>
       </v-col>
       <v-col>
         <!-- 選択されたメッシュを動かすボタン -->

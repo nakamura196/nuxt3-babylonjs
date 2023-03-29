@@ -6,7 +6,7 @@ import {
   HemisphericLight,
   SceneLoader,
 } from "@babylonjs/core";
-// import "@babylonjs/loaders/glTF";
+import "@babylonjs/loaders/glTF";
 const myScene = {
   engine: null,
   scene: null,

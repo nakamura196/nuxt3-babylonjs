@@ -37,14 +37,17 @@ const items = [
   {
     name: "VueとBabylon.jsの双方向やりとり",
     path: "/9",
+    image: "/images/9.png"
   },
   {
     name: ".glbファイルのロード",
     path: "/glb",
+    image: "/images/glb.png"
   },
   {
     name: "meshを追加・削除する",
     path: "/10",
+    image: "/images/10.png"
   },
 ];
 </script>
@@ -55,9 +58,12 @@ const items = [
     </h1>
 
     <v-row>
-      <v-col v-for="item in items" cols="6" sm="4">
-        <v-card variant="outlined" class="pa-4">
-          <nuxt-link :to="localePath(item.path)">{{ item.name }}</nuxt-link>
+      <v-col v-for="item in items.reverse()" cols="6" sm="4">
+        <v-card variant="outlined">
+          <v-img v-if="item.image" :src="item.image" height="150px" class="bg-grey-lighten-4"></v-img>
+          <div class="pa-4">
+            <nuxt-link :to="localePath(item.path)">{{ item.name }}</nuxt-link>
+          </div>
         </v-card>
       </v-col>
     </v-row>
