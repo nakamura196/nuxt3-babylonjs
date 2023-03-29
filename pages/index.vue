@@ -37,17 +37,17 @@ const items = [
   {
     name: "VueとBabylon.jsの双方向やりとり",
     path: "/9",
-    image: "/images/9.png"
+    image: "./images/9.png"
   },
   {
     name: ".glbファイルのロード",
     path: "/glb",
-    image: "/images/glb.png"
+    image: "./images/glb.png"
   },
   {
     name: "meshを追加・削除する",
     path: "/10",
-    image: "/images/10.png"
+    image: "./images/10.png"
   },
 ];
 </script>
