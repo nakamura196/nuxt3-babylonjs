@@ -34,6 +34,14 @@ const items = [
     name: "click event (callback)",
     path: "/8",
   },
+  {
+    name: "VueとBabylon.jsの双方向やりとり",
+    path: "/9",
+  },
+  {
+    name: ".glbファイルのロード",
+    path: "/glb",
+  },
 ];
 </script>
 <template>
@@ -42,10 +50,12 @@ const items = [
       Nuxt3・Vuetify・Babylon.jsを用いた試験サイト
     </h1>
 
-    <ul>
-      <li v-for="item in items" class="mb-5">
-        <nuxt-link :to="localePath(item.path)">{{ item.name }}</nuxt-link>
-      </li>
-    </ul>
+    <v-row>
+      <v-col v-for="item in items" cols="6" sm="4">
+        <v-card variant="outlined" class="pa-4">
+          <nuxt-link :to="localePath(item.path)">{{ item.name }}</nuxt-link>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
