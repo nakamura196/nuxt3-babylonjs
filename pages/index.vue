@@ -49,6 +49,11 @@ const items = [
     path: "/10",
     image: "./images/10.png"
   },
+  {
+    name: ".glbファイルのデモその2",
+    path: "/11",
+    // image: "./images/10.png"
+  },
 ];
 </script>
 <template>
